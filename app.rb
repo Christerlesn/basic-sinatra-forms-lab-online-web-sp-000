@@ -6,4 +6,14 @@ class App < Sinatra::Base
     erb :index
   end
 
+  get '/newteam' do
+
+    erb :newteam
+  end
+
+  post '/newteam' do
+
+    erb :team
+  end
+
 end
